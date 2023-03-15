@@ -11,7 +11,7 @@ def graphic_ui():
     window = sg.Window("ChatGPT For Desktop", layout, margins=(100, 100))
     return window
 def chatgpt(text):
-    openai.api_key = "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"
+    openai.api_key = "****CHAT GPT API KEY*****"
     completion = openai.Completion.create(engine="text-davinci-003", prompt=text, max_tokens=2048)
     return completion
 def choice():
