@@ -1,0 +1,1 @@
+This is the classic snake game. It does not have automatic movement.
