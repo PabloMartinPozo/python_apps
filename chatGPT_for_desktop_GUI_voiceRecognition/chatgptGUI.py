@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 import openai
 import pyttsx3
 import speech_recognition as sr
-openai.api_key = "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"
+openai.api_key = "****CHATGPT API KEY******"
 layout = [[sg.Text('CHAT GPT FOR DESKTOP')],
         [sg.InputText(key='-IN-')],
         [sg.Button('TALK', key='-TLK-')],
